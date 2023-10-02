@@ -24,7 +24,7 @@ const Register = () => {
       {loading ? (
         <div className="flex justify-center">
           <svg
-            class="w-60 h-60 mr-2 text-gray-200 animate-spin fill-pink-500"
+            className="w-60 h-60 mr-2 text-gray-200 animate-spin fill-pink-500"
             viewBox="0 0 100 101"
           >
             <path
