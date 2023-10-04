@@ -11,8 +11,6 @@ const ProductsList = ({product}) => {
         dispacth(getProducts())
     },[])
 
-    console.log(products);
-
   return (
     <>
         {loading ? (

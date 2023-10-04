@@ -17,17 +17,9 @@
       "id": 7
     },
     {
-      "name": "iPhone 13 Pro Max",
-      "description": "Потрясающий 27-дюймовый дисплей Retina 5K, и миллиард цветов. Ультраширокая камера 12 МП с функцией 'В центре внимания' Три микрофона студийного качества и звуковая система с шестью динамиками и функцией Spatial Audio. Порты для подключения и зарядки",
-      "price": 1250,
-      "picture": "https://www.istore.kg/media/products/iphone-13-pro-max-green-select.webp",
-      "type": "electronics",
-      "id": 8
-    },
-    {
-      "name": "iPhone 11",
+      "name": "iPhone 110",
       "description": "12-Мп фронтальная камера TrueDepth с режимом портрета, видео 4K и slo-mo,Чип A13 Bionic с 4-ядерным графическим процессором,6,1-дюймовый дисплей Liquid Retina HD,Дисплей из прочного стекла, торцы из алюминия",
-      "price": 580,
+      "price": "5805",
       "picture": "https://www.istore.kg/media/products/11-black_qdkqJZQ.webp",
       "type": "electronics",
       "id": 9
@@ -99,7 +91,7 @@
     {
       "name": "AirPods Max",
       "description": "Чип Apple H1 в каждой чашке наушников, отвечающий за рендеринг аудио и стабильное подключение,Пространственное аудио с динамическим отслеживанием головы,Активное шумоподавление и Режим прозрачности,Умный чехол-бюстгальтер с запасом прочности",
-      "price": 550,
+      "price": "5502",
       "picture": "https://www.istore.kg/media/products/AirPods-Max-Blue.webp",
       "type": "electronics",
       "id": 19

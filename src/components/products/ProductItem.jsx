@@ -1,8 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const ProductItem = ({ product }) => {
+
+  const navigate = useNavigate()
+
   return (
-    <div className="m-3 w-1/4">
+    <div onClick={() => navigate(`/products/${product.id}`)} className="m-3 w-1/4">
       <div>
         <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
           <img

@@ -1,17 +1,14 @@
-
-import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { logout, checkUserLogin } from '../../helpers/functions';
-import { updateToken } from '../../helpers/functions';
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { logout, checkUserLogin } from "../../helpers/functions";
+import { updateToken } from "../../helpers/functions";
 
 const NavBar = () => {
   const navigate = useNavigate();
 
-
   useEffect(() => {
     updateToken();
   }, []);
-
 
   return (
     <>
@@ -74,20 +71,21 @@ const NavBar = () => {
                       Services
                     </a>
                   </li>
-
-                  <li>
-                    <a
-                      className="text-gray-500 transition hover:text-gray-500/75"
-                      href="/"
-                    >
-                      Projects
-                    </a>
-                  </li>
+                  {checkUserLogin() && (
+                    <li>
+                      <button
+                        className="text-gray-500 transition hover:text-gray-500/75"
+                        onClick={() => navigate("/product-create")}
+                      >
+                        Add Product
+                      </button>
+                    </li>
+                  )}
 
                   <li>
                     <button
                       className="text-gray-500 transition hover:text-gray-500/75"
-                      onClick={() => navigate('/products')}
+                      onClick={() => navigate("/products")}
                     >
                       Products
                     </button>
