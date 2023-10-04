@@ -3,9 +3,10 @@
 .homePage{
     height: 100vh;
     display: flex;
-    background: url('https://img.freepik.com/premium-vector/pastel-color-abstract-background-with-bokeh_31543-138.jpg?w=740');
-    background-size: cover;
-    background-position: center;
+    /* background: url('https://img.freepik.com/premium-vector/pastel-color-abstract-background-with-bokeh_31543-138.jpg?w=740'); */
+    /* background-size: cover;
+    background-position: center; */
+    margin-top: -50px;
 }
 .left{
     flex: 1;
@@ -48,24 +49,24 @@
     padding: 10px 20px;
   border: none;
   font-size: 17px;
-  color: #fff;
+  color: #d040f1;
   border-radius: 7px;
   letter-spacing: 4px;
   font-weight: 700;
   text-transform: uppercase;
   transition: 0.5s;
   transition-property: box-shadow;
-  background: rgb(0,140,255);
-  box-shadow: 0 0 25px rgb(0,140,255);
+  background: linear-gradient(#fc66ff88, #ededa1cd, #c09de8cd);
+  box-shadow: 0 0 25px rgb(255, 81, 238);
   margin-top: 25px;
   text-decoration: none;
   animation: animateButton 6s infinite ease alternate;
 }
 .mainButton:hover {
-    box-shadow: 0 0 5px rgb(0,140,255),
-                0 0 25px rgb(0,140,255),
-                0 0 50px rgb(0,140,255),
-                0 0 100px rgb(0,140,255);
+    box-shadow: 0 0 5px rgb(240, 85, 224),
+                0 0 25px rgb(240, 85, 224),
+                0 0 50px rgb(240, 85, 224),
+                0 0 100px rgb(240, 85, 224);
   }
 @keyframes animateButton {
     100%{
@@ -105,28 +106,42 @@
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(216, 49, 202, 0.918);
     transition: transform 0.7s;
+    justify-content: center;
+    align-items: center;
   }
   
   .cardSlideFront {
-    background-color: #B00;
+    background-color: transparent;
     transform: translateY(0%);
   }
   
   .cardSlideBack {
-    background: linear-gradient(#e4f077, #fff);
-    color: #9e6cee;
+    background: linear-gradient(#ff66cf88, #ededa1cd, #f432aa68, #c1e7ebb9);
+    color: #8d56e5;
+    font-weight: bold;
     opacity: 0;
     transform: translateY(0%);
     transition: opacity 0.5s;
     font-size: 1rem;
     padding: 10px;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
   }
   
+  .cardSlideBack h2 {
+    font-size: 30px;
+    color: #8040e8;
+  }
+
+  .cardSlideBack h3 {
+    font-weight: bolder;
+    color: rgb(255, 71, 215);
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
   .cardContainer:hover .cardSlideFront {
     transform: translateY(-100%);
     box-shadow: 0 0 20px rgba(216, 102, 188, 0.822);

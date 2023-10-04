@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  height: 100vh;
+  background: url("https://img.freepik.com/premium-vector/pastel-color-abstract-background-with-bokeh_31543-138.jpg?w=740");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

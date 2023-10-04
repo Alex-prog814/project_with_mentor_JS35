@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './HomePage.module.css'
+import photo from '../../images/kisspng-chewing-gum-hubba-bubba-bubble-tape-bubble-gum-kro-bubble-gum-5b16e4c2aa6331.6750723615282270106979.png'
 
 
 const HomePage = () => {
@@ -17,7 +18,7 @@ const HomePage = () => {
           <div className={style.cardSlide}>
             <div className={style.cardSlideFront}>
               <img
-                src="https://content2.rozetka.com.ua/goods/images/big/285926242.jpg" />
+                src={photo} />
             </div>
             <div className={style.cardSlideBack}>
               <h2>Hubba Bubba Bubble Gum Tape</h2>

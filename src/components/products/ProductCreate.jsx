@@ -16,7 +16,7 @@ const ProductCreate = () => {
     const dispatch = useDispatch();
 
   return (
-    <div>
+    <div className='mt-9'>
         <h3>Create Product</h3>
         <input type="text" placeholder="Name" onChange={(e) => setProduct({ ...product, name: e.target.value })} />
 

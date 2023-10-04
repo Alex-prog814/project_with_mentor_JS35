@@ -47,7 +47,7 @@ const Register = () => {
               </button>
             </div>
           ) : (
-            <div className="max-w-sm mx-auto flex flex-col px-2 ">
+            <div className="max-w-sm mx-auto flex flex-col px-2 mt-32">
               <div className="bg-white px-6 py-14 rounded shadow-md text-black w-full">
                 <h3 className="mb-8 font-bold text-3xl text-center">Sign Up</h3>
                 <input
